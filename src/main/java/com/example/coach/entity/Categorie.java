@@ -17,8 +17,6 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-
-
 @Entity
 public class Categorie {
 	@Id
@@ -26,7 +24,6 @@ public class Categorie {
 	private Long idCategorie;
 	private String nomCategorie;
 
-	
     @JsonIgnore
 	@OneToMany(mappedBy = "categorie")
 	private List<User> users;

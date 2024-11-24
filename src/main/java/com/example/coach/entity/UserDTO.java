@@ -19,7 +19,7 @@ public class UserDTO {
 	private String role;
 	private Integer age;
 	private Boolean status;
-	private String nomCategorie;
+	private Categorie categorie;
 	
 
 }
